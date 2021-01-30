@@ -20,9 +20,9 @@ class Competences extends Component {
 
             <Container maxWidth={"xl"}>
                 <Grid container style={{minHeight: "100vh", display: "flex"}} direction={"column"} justify={"center"}>
-                    <Box mb={10}>
+                    <Box my={5}>
                         <Grid item>
-                            <Typography component={"h2"} variant={"h3"} align={"center"} color={"textPrimary"}>
+                            <Typography component={"h2"} variant={"h3"} align={"center"} color={"secondary"}>
                                 Mes champs d'action
                             </Typography>
                         </Grid>
@@ -33,7 +33,7 @@ class Competences extends Component {
                                 <List component={"ul"}>
                                     <Grid container direction={"column"} justify={"space-around"} spacing={2}>
                                         <Grid item>
-                                            <Box border={2} borderLeft={0} borderRight={0} borderTop={0}
+                                            <Box p={1} border={2} borderLeft={0} borderRight={0} borderTop={0}
                                                  borderRadius={3} borderColor={"secondary.main"}
                                                  bgcolor={"secondary.light"}>
                                                 <ListItem>
@@ -55,7 +55,7 @@ class Competences extends Component {
                                             </Box>
                                         </Grid>
                                         <Grid item>
-                                            <Box border={2} borderLeft={0} borderRight={0} borderTop={0}
+                                            <Box p={1} border={2} borderLeft={0} borderRight={0} borderTop={0}
                                                  borderRadius={3} borderColor={"secondary.main"}
                                                  bgcolor={"primary.light"}>
                                                 <ListItem>
@@ -77,7 +77,7 @@ class Competences extends Component {
                                             </Box>
                                         </Grid>
                                         <Grid item>
-                                            <Box border={2} borderLeft={0} borderRight={0} borderTop={0}
+                                            <Box p={1} border={2} borderLeft={0} borderRight={0} borderTop={0}
                                                  borderRadius={3} borderColor={"secondary.main"}
                                                  bgcolor={"secondary.light"}>
 
@@ -100,7 +100,7 @@ class Competences extends Component {
                                             </Box>
                                         </Grid>
                                         <Grid item>
-                                            <Box border={2} borderLeft={0} borderRight={0} borderTop={0}
+                                            <Box p={1} border={2} borderLeft={0} borderRight={0} borderTop={0}
                                                  borderRadius={3} borderColor={"secondary.main"}
                                                  bgcolor={"primary.light"}>
 
@@ -123,7 +123,7 @@ class Competences extends Component {
                                             </Box>
                                         </Grid>
                                         <Grid item>
-                                            <Box border={2} borderLeft={0} borderRight={0} borderTop={0}
+                                            <Box p={1} border={2} borderLeft={0} borderRight={0} borderTop={0}
                                                  borderRadius={3} borderColor={"secondary.main"}
                                                  bgcolor={"secondary.light"}>
 

@@ -3,16 +3,16 @@ import './App.css'
 import MainPage from "./components/MainPage";
 import Pourquoi from "./components/Pourquoi";
 import {Box, createMuiTheme, MuiThemeProvider} from "@material-ui/core";
-import {blueGrey, brown} from "@material-ui/core/colors";
+import {blueGrey, cyan, grey, red, teal} from "@material-ui/core/colors";
 import Competences from "./components/Competences";
 
 const theme = createMuiTheme({
     palette: {
         primary: {
-            main: blueGrey[400],
+            main: cyan[50],
         },
         secondary: {
-            main: brown[500]
+            main: red[900]
         },
         text: {
             primary: "#000000",

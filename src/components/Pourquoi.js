@@ -13,9 +13,9 @@ class Pourquoi extends Component {
                 <Container
                     style={{minHeight: "100vh", flexDirection: "column", display: "flex", justifyContent: "center"}}
                     maxWidth={"xl"}>
-                    <Box mb={10}>
+                    <Box my={5}>
                         <Grid item>
-                            <Typography component={"h2"} variant={"h3"} align={"center"} color={"textPrimary"}>
+                            <Typography component={"h2"} variant={"h3"} align={"center"} color={"secondary"}>
                                 Pourquoi un site internet ?
                             </Typography>
                         </Grid>
@@ -35,7 +35,7 @@ class Pourquoi extends Component {
                                 <List component={"ul"}>
                                     <Grid container direction={"column"} justify={"space-around"} spacing={2}>
                                         <Grid item>
-                                            <Box border={2} borderLeft={0} borderRight={0} borderTop={0}
+                                            <Box p={1} border={2} borderLeft={0} borderRight={0} borderTop={0}
                                                  borderRadius={3} borderColor={"secondary.main"}
                                                  bgcolor={"secondary.light"}>
 
@@ -58,7 +58,7 @@ class Pourquoi extends Component {
                                             </Box>
                                         </Grid>
                                         <Grid item>
-                                            <Box bgcolor={"primary.light"} border={2} borderLeft={0} borderRight={0}
+                                            <Box p={1} bgcolor={"primary.light"} border={2} borderLeft={0} borderRight={0}
                                                  borderTop={0}
                                                  borderRadius={3} borderColor={"secondary.main"}>
 
@@ -82,7 +82,7 @@ class Pourquoi extends Component {
                                             </Box>
                                         </Grid>
                                         <Grid item>
-                                            <Box bgcolor={"secondary.light"} border={2} borderLeft={0} borderRight={0}
+                                            <Box p={1} bgcolor={"secondary.light"} border={2} borderLeft={0} borderRight={0}
                                                  borderTop={0}
                                                  borderRadius={3} borderColor={"secondary.main"}>
 
@@ -105,7 +105,7 @@ class Pourquoi extends Component {
                                             </Box>
                                         </Grid>
                                         <Grid item>
-                                            <Box bgcolor={"primary.light"} border={2} borderLeft={0} borderRight={0}
+                                            <Box p={1} bgcolor={"primary.light"} border={2} borderLeft={0} borderRight={0}
                                                  borderTop={0}
                                                  borderRadius={3} borderColor={"secondary.main"}>
 
